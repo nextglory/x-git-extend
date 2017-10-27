@@ -2,7 +2,7 @@
 source "$(git --exec-path)/git-sh-setup"
 
 function _hello() {
-    echo "works!"
+    echo "works!!"
 }
 
 _hello $1
