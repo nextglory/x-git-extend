@@ -1,0 +1,8 @@
+#!/bin/sh
+source "$(git --exec-path)/git-sh-setup"
+
+function _hello() {
+    echo "works"
+}
+
+_hello $1
